@@ -7,15 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-<<<<<<< HEAD
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-=======
-    "preview": "vite preview"
-    "predeploy": "npm run build",      
-  "deploy": "gh-pages -d dist"
->>>>>>> a3dd1768cc6ec2f6f35500fd4a5482cff23a49b5
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
@@ -80,6 +74,5 @@
     "globals": "^16.0.0",
     "tw-animate-css": "^1.2.9",
     "vite": "^6.3.5"
-  },
-  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af"
+  }
 }
