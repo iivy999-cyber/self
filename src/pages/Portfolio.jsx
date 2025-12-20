@@ -21,7 +21,7 @@ const Portfolio = () => {
       title: 'CIS 企業識別系統',
       category: 'branding',
       description: '為聯合生物醫藥公司設計企業識別系統，提升品牌專業形象。',
-      image: '/CIS01.jpg',
+      image: '../assets/CIS01.jpg',
       tags: ['品牌識別', 'CIS', '視覺設計']
     },
     {
@@ -29,7 +29,7 @@ const Portfolio = () => {
       title: '展覽布置設計',
       category: 'visual',
       description: '為醫療生技策劃展覽的整體視覺與行銷素材，有效提升品牌專業形象。',
-      image: '/event05.JPG',
+      image: '../assets/event05.JPG',
       tags: ['展覽設計', '視覺設計', '行銷']
     },
     {
@@ -37,7 +37,7 @@ const Portfolio = () => {
       title: '節慶賀卡設計',
       category: 'visual',
       description: '節慶賀卡設計，傳達溫馨祝福與品牌形象。',
-      image: '/Card01.jpg',
+      image: '../assets/Card01.jpg',
       tags: ['平面設計', '節慶', '賀卡']
     },
     {
@@ -45,7 +45,7 @@ const Portfolio = () => {
       title: '產品動畫宣傳片',
       category: 'animation',
       description: '多媒體動畫製作，提升品牌傳播效果',
-      image: '/in03.jpg',
+      image: '../assets/in03.jpg',
       tags: ['動畫製作', '影片剪輯', '宣傳']
     },
     {
@@ -53,7 +53,7 @@ const Portfolio = () => {
       title: '大型海報設計',
       category: 'visual',
       description: '尾牙或大型活動專案的視覺設計，準時交付並獲得高度肯定',
-      image: '/large_poster.jpg',
+      image: '../assets/large_poster.jpg',
       tags: ['活動設計', '平面設計', '海報設計']
     },
     {
@@ -61,7 +61,7 @@ const Portfolio = () => {
       title: '響應式網頁設計',
       category: 'web',
       description: '完整的電商網站設計與使用者體驗優化',
-      image: '/webssite03.jpg',
+      image: '../assets/webssite03.jpg',
       tags: ['網頁設計', '響應式', 'UX設計']
     }
   ];
