@@ -2,7 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Palette, Monitor, Video, Target } from 'lucide-react';
 import ivyPhoto from '../assets/Ivy.jpg';
-
+function App() {
+  return (
+    <img src={cardImage} alt="Card" /> // 使用變數
+  );
+}
 const Home = () => {
   const services = [
     {
