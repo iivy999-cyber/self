@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/self">
+    <Router>
       <div className="App">
         <Navigation />
         <Routes>
