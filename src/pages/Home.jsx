@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Palette, Monitor, Video, Target } from 'lucide-react';
 import ivyPhoto from '../assets/Ivy.jpg';
+
 function App() {
   return (
     <img src={cardImage} alt="Card" /> // 使用變數
@@ -138,7 +139,7 @@ const Home = () => {
               className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-200 card-hover"
             >
               <img
-                src="/self/CIS01.jpg"
+                src="/CIS01.jpg"
                 alt="CIS 企業識別系統"
                 className="w-full h-48 object-cover"
               />
@@ -156,7 +157,7 @@ const Home = () => {
               className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-200 card-hover"
             >
               <img
-                src="/self/event05.JPG"
+                src="/event05.JPG"
                 alt="展覽布置設計"
                 className="w-full h-48 object-cover"
               />
@@ -174,7 +175,7 @@ const Home = () => {
               className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-200 card-hover"
             >
               <img
-                src="/self/Card01.jpg"
+                src="/Card01.jpg"
                 alt="節慶賀卡設計"
                 className="w-full h-48 object-cover"
               />
